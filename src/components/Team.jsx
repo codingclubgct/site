@@ -137,7 +137,7 @@ const Team = () => {
           </Grid> */}
 
           {team.map((person) => (
-            <Grid item md={4} xs={6} key={person.id}>
+            <Grid item md={4} xs={6} key={person.name}>
               <div className="profile-img">
                 <img
                   src={person.img}
