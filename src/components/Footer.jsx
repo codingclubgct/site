@@ -87,7 +87,7 @@ function Footer() {
               <Grid item xs={12}>
                 <div className="info-box">
                   <h3>Email Us</h3>
-                  <p>codingclub.gct@gmail.com</p>
+                  <p><a style={{color: 'inherit'}} href='mailto:codingclub@gct.ac.in'>codingclub@gct.ac.in</a></p>
                 </div>
               </Grid>
               <Grid item xs={6}>
