@@ -120,7 +120,7 @@ const Activities = () => {
             </li>
           </ul>
 
-          <h3 className="sub-heading">Yearly Plan - 2022</h3>
+          <h3 className="sub-heading">Yearly Plan</h3>
 
           <div
             className="tab-content row justify-content-center "
@@ -128,14 +128,14 @@ const Activities = () => {
             data-aos-delay="200"
           >
             <div role="tabpanel" className="col-lg-9 tab-pane " id="day-1">
-              <div className="row schedule-item">
+              {/* <div className="row schedule-item">
                 <div className="col-md-2">
                   <time>EVEN SEMESTER VACATION</time>
                 </div>
                 <div className="col-md-10">
                   <h4>Competitive Programming BootCamp</h4>
                 </div>
-              </div>
+              </div> */}
 
               <div className="row schedule-item">
                 <div className="col-md-2">
@@ -160,7 +160,7 @@ const Activities = () => {
                   <time>ODD SEMESTER HOLIDAYS</time>
                 </div>
                 <div className="col-md-10">
-                  <h4>Webinar on Placement Guidance</h4>
+                  <h4>Competitive Programming Bootcamp</h4>
                 </div>
               </div>
 
